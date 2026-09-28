@@ -1,0 +1,21 @@
+.header {
+  background-color: #000;
+  width: 100%;
+  height: 5vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.header button:hover {
+  background-color: #555;
+}
