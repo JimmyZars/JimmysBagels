@@ -10,14 +10,19 @@ export default function Header() {
     <div className="header">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
-          <Grid size={{ xs: 6, sm: 6, md: 7, lg: 8, xl: 9 }}>
+          <Grid size={2}>
             <Item>size=8</Item>
           </Grid>
-          <Grid size={{ xs: 6, sm: 6, md: 5, lg: 4, xl: 3 }} style={{ display: 'flex', justifyContent: 'space-between', paddingRight: '20px' }}>
-            <button>Home</button>
-            <button>About</button>
-            <button>Our Menu</button>
-            <button>Contact Us</button>
+          <Grid size={8} style={{ textAlign: 'center' }}>
+            <div style={{ width: 800, display: 'flex', justifyContent: 'space-between', textAlign: 'center', margin: '0 auto' }}>
+              <button>Home</button>
+              <button>About</button>
+              <button>Our Menu</button>
+              <button>Contact Us</button>
+            </div>
+          </Grid>
+          <Grid size={2} style={{ display: 'flex', justifyContent: 'space-between', paddingRight: '20px' }}>
+
           </Grid>
         </Grid>
       </Box>
