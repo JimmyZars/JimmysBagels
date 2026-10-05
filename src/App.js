@@ -9,35 +9,43 @@ import coffee from "./images/coffee.JPG";
 const menuItems = [
   {
     name: "Jimmy's Choice",
-    description: "Everything bagel, sausage, egg & American cheese.",
+    description:
+      "Everything Bagel, pork sausage, scrambled egg and American cheese.",
     price: "$10",
   },
   {
-    name: "Bacon, Egg & Cheese",
-    description: "Crispy bacon, egg and melted cheese on a fresh bagel.",
-    price: "$9",
+    name: "American Classic",
+    description: "Plain Bagel, bacon, egg, and American cheese.",
+    price: "$10",
   },
   {
-    name: "Sausage, Egg & Cheese",
+    name: "Chive & Shine",
     description:
-      "Savory sausage, egg and melted cheese on your choice of bagel.",
-    price: "$9",
+      "Everything Bagel, pork sausage, scrambled egg, chive & onion cream cheese, and cheddar cheese.",
+    price: "$11",
+  },
+  {
+    name: "Hangover Helper",
+    description:
+      "Sesame Bagel, bacon, scrambled egg, hash brown, and pepper jack cheese.",
+    price: "$13",
+  },
+  {
+    name: "The Vegetarian",
+    description: "Plain Bagel, scrambled egg, spinach, and cheddar cheese.",
+    price: "$8",
+  },
+  {
+    name: "Breakfast Combo",
+    description:
+      "Plain Bagel, pork sausage, bacon, scrambled egg and cheddar cheese.",
+    price: "$13",
   },
   {
     name: "Bagel & Cream Cheese",
     description:
-      "A fresh, chewy New York-style bagel with your favorite cream cheese.",
-    price: "$5",
-  },
-  {
-    name: "Bagel Dog",
-    description: "A savory dog wrapped in a fresh Jimmy's bagel.",
-    price: "$6",
-  },
-  {
-    name: "Breakfast Bowl",
-    description: "A hearty breakfast without the bagel.",
-    price: "$9",
+      "Your choice of bagel with any of our signiature cream cheese options.",
+    price: "$4",
   },
 ];
 
