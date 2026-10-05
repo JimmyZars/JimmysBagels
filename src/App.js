@@ -343,8 +343,12 @@ function App() {
             >
               Instagram
             </a>
-            <a href="https://jimmysbagels.com" target="_blank" rel="noreferrer">
-              Website
+            <a
+              href="https://facebook.com/jimmysbagel"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Facebook
             </a>
             <a href="mailto:jimmy@jimmysbagels.com">jimmy@jimmysbagels.com</a>
           </div>
