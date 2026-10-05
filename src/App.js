@@ -110,7 +110,7 @@ function App() {
           </a>
           <a
             className="order-link"
-            href="https://jimmysbagels.com"
+            href="https://order.toasttab.com/online/jimmys-bagels"
             target="_blank"
             rel="noreferrer"
             onClick={closeMenu}
