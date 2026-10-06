@@ -5,6 +5,7 @@ import dozen from "./images/dozenbagels.JPG";
 import bagels from "./images/bagels.JPG";
 import sandwiches from "./images/sandwiches.JPG";
 import coffee from "./images/coffee.JPG";
+import JobApplication from "./components/JobApp";
 
 const menuItems = [
   {
@@ -121,6 +122,7 @@ function App() {
       </header>
 
       <main>
+        {/* <JobApplication /> */}
         <section className="hero" id="home">
           <div className="hero-copy">
             <p className="eyebrow">GOLDEN OUTSIDE. CHEWY INSIDE.</p>
@@ -170,10 +172,10 @@ function App() {
 
           <div className="intro-copy">
             <p>
-              Jimmy's started with a love for great bagels. After years of
-              perfecting the recipe, we began serving fresh bagels and
-              made-to-order sandwiches at farmers markets and pop-up events
-              throughout the Chicago suburbs.
+              Jimmy's started with a love for great bagels. After perfecting the
+              recipe making bagels for friends and family, we began serving
+              fresh bagels and made-to-order sandwiches at farmers markets and
+              pop-up events throughout the Chicago suburbs.
             </p>
             <p>
               Today, we're bringing that same fresh-baked flavor to our La
@@ -224,8 +226,8 @@ function App() {
               <div>
                 <h3>Great Coffee</h3>
                 <p>
-                  Espresso drinks, lattes, cappuccinos and fresh coffee to pair
-                  with your bagel.
+                  Espresso drinks, lattes, tea, and fresh-brewed coffee from
+                  Gigawatt Coffee Roasters. The perfect pairing for your bagel.
                 </p>
               </div>
             </article>
@@ -274,8 +276,9 @@ function App() {
             </h2>
           </div>
           <p>
-            Fresh coffee, espresso, lattes and cappuccinos — the perfect
-            companion to your favorite Jimmy's bagel.
+            Fresh-brewed coffee, tea, espresso, and lattes featuring Gigawatt
+            Coffee Roasters. The perfect companion to your favorite Jimmy's
+            bagel.
           </p>
         </section>
 
